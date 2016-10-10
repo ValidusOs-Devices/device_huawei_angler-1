@@ -17,6 +17,7 @@
 package org.cyanogenmod.hardware;
 
 import org.cyanogenmod.internal.util.FileUtils;
+import java.io.File;
 
 public class VibratorHW {
     private static String LEVEL_PATH_LIGHT  = "/sys/devices/virtual/timed_output/vibrator/vmax_mv_light";
@@ -46,7 +47,7 @@ public class VibratorHW {
     }
 
     public static int getWarningThreshold()  {
-        return 2700;
+        return -1;
     }
 
     public static int getCurIntensity()  {
