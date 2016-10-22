@@ -27,7 +27,7 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a53
 CLANG_CPU_FEATURES := crc
 
-CLANG_O3 := true
+# CLANG_O3 := true
 STRICT_ALIASING := true
 
 TARGET_2ND_ARCH := arm
