@@ -51,4 +51,5 @@ lib/libtinyxml.so
 lib/soundfx/libfmas.so
 -priv-app/CNEService/CNEService.apk
 -priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED
+-priv-app/atfwd/atfwd.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
