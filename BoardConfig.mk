@@ -170,5 +170,8 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Ignore vendor partition audio_effects.conf and use the device (system/etc/) one
 TARGET_IGNORE_VENDOR_AUDIO_EFFECTS_CONF := true
+# Angler has its own vendor.img so we can't build audio_effects from DSPlibs tree
+# to the vendor partition, so we'll build it from the device tree to the system partition
+TARGET_USE_DEVICE_AUDIO_EFFECTS_CONF := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
